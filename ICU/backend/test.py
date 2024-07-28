@@ -1,3 +1,4 @@
+from time import sleep
 import torch
 import cv2
 import mediapipe as mp
@@ -168,7 +169,7 @@ def is_stationary(coord1, coord2, threshold=0.25):
 def track_people_from_video(video_path, output_set):
     cap = cv2.VideoCapture(video_path)
     fps = cap.get(cv2.CAP_PROP_FPS)
-    frame_interval = int(fps)  # 1초마다 프레임 추출
+    frame_interval = int(fps)*2  # 1초마다 프레임 추출
 
     tracked_people = []
     output_index = 1
@@ -190,9 +191,10 @@ def track_people_from_video(video_path, output_set):
             print(frame_count, 'frame') # frame_interval 및 객체 탐지 발생 시각 확인
 
             centers = [calculate_center(coord) for coord in current_frame_people]
-            print(f"Number of people: {len(current_frame_people)}")
+            print(f"Number of people: {len(current_frame_people)}",flush=True)
+            sleep(1)
             for j, center in enumerate(centers):
-                print(f"Person {j + 1} center: {center}")
+                print(f"Person {j + 1} center: {center}",flush=True)
             
 
             if frame_count == 0:

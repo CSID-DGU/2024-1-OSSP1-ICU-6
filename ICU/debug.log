@@ -1,0 +1,16 @@
+Not Found: /
+"GET / HTTP/1.1" 404 2189
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2240
+Not Found: /
+"GET / HTTP/1.1" 404 2189
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2240
+Bad Request: /upload_video/
+"GET /upload_video/ HTTP/1.1" 400 28
+Bad Request: /upload_video/
+"GET /upload_video/ HTTP/1.1" 400 28
+Bad Request: /upload_video/
+"GET /upload_video/ HTTP/1.1" 400 28
+Bad Request: /upload_video/
+"GET /upload_video/ HTTP/1.1" 400 28
