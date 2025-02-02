@@ -4,9 +4,8 @@ CCTV 노숙 취객 탐지 프로그램
 - YOLO 모델을 이용하여 사람 인식
 - 화면 내에 사람이 일정 시간 이상 정지해 있을 경우 알고리즘을 통해 감지
 - MideaPipe pose estimation을 통해 자세를 판별하여 위험할 경우 알림 제공
-
-개발 환경
-- 
+  
+  
 YOLOv5, YOLOv8 3594개의 데이터로 학습. YOLOv5의 학습결과가 더 우수하여 채택.
 ![10](https://github.com/user-attachments/assets/10588466-966c-499f-89b2-0d203a3f1eff)
 
