@@ -32,10 +32,14 @@
   → 특정 시간 동안 앉아있거나 누워있는 경우 노숙 취객으로 판단
 
 [YOLOv5와 v8 학습 결과 비교, v5 선정]
+
 ![10](https://github.com/user-attachments/assets/20569ced-9fac-42a7-aaf6-c3edf536a7da)
 
+
 [YOLO를 통해 생성된 bounding box를 이용]
-![image](https://github.com/user-attachments/assets/6b53dd6b-e5a4-4dc3-b71d-3dc7c7e88d22)
+
+![image](https://github.com/user-attachments/assets/03da578a-4175-43e8-9b4b-d3df45d90a6b)
+
 
 
 ### 🔹 Django REST API
