@@ -28,7 +28,8 @@
 ### 🔹 AI 기반 탐지
 
 - YOLOv5 객체 인식을 통해 영상 속 사람 탐지
-- Pose Estimation (MediaPipe, AlphaPose) 활용하여 사람의 자세 분석  
+- 시간 단위로 영상을 캡쳐, YOLO가 생성한 바운딩 박스의 좌표를 이용한 알고리즘으로 정지된 사람 식별
+- Pose Estimation (MediaPipe, AlphaPose) 활용하여 정지된 사람의 자세 분석  
   → 특정 시간 동안 앉아있거나 누워있는 경우 노숙 취객으로 판단
 
 [YOLOv5와 v8 학습 결과 비교, v5 선정]
@@ -36,7 +37,7 @@
 ![10](https://github.com/user-attachments/assets/20569ced-9fac-42a7-aaf6-c3edf536a7da)
 
 
-[YOLO를 통해 생성된 bounding box를 이용]
+[YOLO를 통해 생성된 bounding box를 이용하여 정지된 사람 식별]
 
 ![image](https://github.com/user-attachments/assets/03da578a-4175-43e8-9b4b-d3df45d90a6b)
 
