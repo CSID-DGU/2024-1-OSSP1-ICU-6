@@ -56,36 +56,34 @@
 - JavaScript, HTML, CSS
 - 웹소켓(WebSocket) 및 API 연동
 
+## 업무 분담
 
 | **역할**     | **이름** | **담당 업무**                             |
 |--------------|----------|-------------------------------------------|
 | **팀장**     | 고성주   | 프로젝트 총괄, YOLO 모델 개발             |
-| **백엔드**   | 이수욱   | Pose Estimation 모델 구현 및 API 개발      |
-| **백엔드**   | 오진호   | 객체 탐지 알고리즘 설계 및 예외 처리       |
+| **백엔드**   | 이수욱   | 정지 객체 판별 및 포즈 추정 알고리즘 설계      |
+| **백엔드**   | 오진호   | 객체 탐지 알고리즘 설계 및 포즈 추정 알고리즘 설계       |
 | **프론트엔드** | 김동연   | React 웹페이지 개발 및 UI 구현             |
 | **풀스택**   | 한동호   | 시스템 통합 및 배포 관리                   |
 
+## 실행 화면
 
-
-
-
-
-초기 화면
+### 🔹초기 화면
 
 ![image](https://github.com/user-attachments/assets/c6f9961e-a126-4ecd-9085-121715b25473)
 
 
-카메라 정보 등록(IP)
+### 🔹카메라 정보 등록(IP)
 
 ![image](https://github.com/user-attachments/assets/8eb5db39-e229-48e6-a115-548de70e2ea8)
 
 
-등록된 카메라
+### 🔹등록된 카메라
 
 ![image](https://github.com/user-attachments/assets/87f59e66-b757-4f66-9a95-3a45f58362bf)
 
 
-탐지 작동 모습
+### 🔹탐지 작동 모습
 
 ![image](https://github.com/user-attachments/assets/7c65e108-905f-4160-871a-f393a329c25e)
 
