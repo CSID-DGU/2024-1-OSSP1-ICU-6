@@ -60,7 +60,7 @@
 - **Django 5.0.6** (웹 프레임워크)
 - **Django REST Framework** (API 서버)
 - **OpenCV & FFmpeg** (CCTV 영상 처리)
-- **YOLOv5 & Pose Estimation** (AI 분석)
+- **YOLOv5 & MediaPipe** (AI 분석)
 
 ### 📌 프론트엔드
 
